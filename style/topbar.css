@@ -1,0 +1,139 @@
+#topbar{
+    height: 40px;
+    background-color: #333333;
+    font-size: 12px;
+}
+#topbar ul
+{
+    line-height: 40px;
+}
+#topbar ul li
+{
+    padding:0 7px;
+}
+
+/* ===================
+      topbar-nav   start
+================= */
+.topbar-nav
+{
+    color: #424242;
+}
+.topbar-nav li
+{   
+    float: left;
+}
+.topbar-nav li:first-child
+{
+    padding-left: 0px;
+}
+.topbar-nav a
+{
+    color: #b0b0b0;
+}
+.topbar-nav a:hover
+{
+    color: aliceblue;
+}
+.topnav-download
+{
+    left: -25px;
+    width: 86px;
+    padding: 19px 19px 0px 19px;
+    font-size: 14px;
+    box-shadow: 0 1px 5px #aaa; 
+    z-index: 1;
+    background-color: #fff;
+    display: none; 
+}
+.topnav-download img
+{
+    width: 86px;
+    height: 86px;
+}
+.topnav-download::before
+{
+    content: "";
+    position: absolute;
+    top: -19px;
+    left: 50%;  
+    font-size: 0;
+    margin-left: -12px;
+    border:10px solid transparent;
+    border-color: transparent;
+    border-bottom-color: #fff;
+}
+.topbar-nav li:hover .topnav-download
+{
+    display: block;
+}
+
+/* ===================
+      topbar-nav   end
+================= */
+
+
+
+
+
+/* ===================
+      use-nav   start
+================= */
+.use-nav li
+{
+    float: right;
+}
+.use-nav a
+{
+    color:#b0b0b0;
+}
+.use-nav a:hover
+{
+    color: aliceblue;
+}
+.shopcar a
+{
+    display: block;
+    width: 120px;
+    height: 40px;
+    background-color: #424242;
+}
+.shopcar a i
+{
+    font-size: 16px;
+    color:#b0b0b0;
+}
+.shopcar a:hover
+{
+    background-color: aliceblue;
+    color:#ff6700 ;
+}
+.shopcar a:hover i
+{
+    color:#ff6700 ;
+}
+.shopcar .shopcar-hover
+{
+    display: none;
+    right: 7px;
+    width: 316px;
+    height: 98px;
+    box-shadow: 0 1px 5px #aaa;
+    line-height: 98px;
+    color: #424242;
+    background-color: #fff;
+    z-index: 1;
+    transition: 0.5;
+}
+.shopcar-hover:target
+{
+    color:red;
+}
+.use-nav li:hover .shopcar-hover
+{
+    display: block;
+}
+
+/* ===================
+      use-nav   end
+================= */

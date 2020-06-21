@@ -1,0 +1,186 @@
+#header 
+{
+    position: relative;
+    height: 55px;
+    margin:23px auto;
+    line-height: 55px; 
+}
+/*================
+     logo start
+ ============== */
+ .logo
+ {
+    overflow: hidden; 
+    width: 55px;
+    height: 55px;
+    background-color: #ff6700;
+    
+ }
+ .logo h1
+ {
+     font-size: 0px;
+ }
+.logo-main
+{
+    width: 110px;
+    margin-left: -55px;
+    line-height: 55px;
+    text-align: center;
+    transition: 0.2s;
+}
+.logo-main i
+{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    font-size: 35px;
+    color: #fff;   
+}
+.logo:hover .logo-main
+{
+    margin-left: 0;
+}
+ /*================
+     logo end
+ ============== */
+
+ /*================
+     nav start
+ ============== */
+ .nav li
+ {
+     float: left;
+     margin: auto 10px;
+     font-size: 16px;
+     color: #333;
+ }
+ #header .nav ul li ul .first{
+     border-left: 1px solid white;
+ }
+ #header .nav li a:hover{
+    color: #ff6700;
+ }
+ #header .nav li ul
+ {
+     overflow: hidden;
+     position: absolute;
+     top: 78px;
+     left: 0;
+     width: 100%;
+     height:0px;
+     z-index: 22;
+     background-color: #ffffff;
+     box-shadow: 0px 1px 5px #333;
+ }
+ #header .nav li ul li{
+     height: 100%;
+     float: none;
+     margin:0 auto;
+ }
+ #header .nav li ul li a{
+     display: inline-block;
+     width: 200px;
+     height: 100%;
+     line-height: 20px;
+     text-align: center;
+     font-size: 12px;
+ }
+ #header .nav a .new{
+     width: 64px;
+     height: 20px;
+     margin: auto;
+     color: #ff6700;
+     border:1px solid #ff6700;
+ }
+ #header .nav a .kong{
+    width: 64px;
+    height: 20px;
+    margin: auto;
+ }
+ #header .nav a .nav-img{
+     width: 160px;
+     height: 100px;
+     margin:17px auto;
+     padding: 0 20px;
+     border-left:1px solid #e0e0e0 ;
+ }
+ #header .nav a .title {
+    width: 100px;
+    height: 18px;
+    margin: auto;
+    margin-top: 18px;
+    color: #333;
+ }
+ #header .nav a .price{
+    width: 100px;
+    height: 18px;
+    margin:5px auto;
+    color: #ff6700;
+ }
+ #header .nav ul li ul a:hover .title{
+    color: #333;
+ }
+ /* 二级菜单显示 */
+#header .nav ul li:hover ul{
+    height:230px ;
+    transition: 0.5s;
+}
+ /*================     
+     nav end               
+ ============== */
+
+  /*================     
+    header-search  start           
+ ============== */
+ #header .header-search input{
+     border: none;
+     padding: 0;
+ }
+ #header .header-search{
+    position: relative;
+     width: 300px;
+     height: 50px;
+     font-size: 12px;
+ }
+ #header .header-search :hover .search-text,
+ #header .header-search :hover .search-btn{
+     border-color: #b0b0b0;
+ }
+ #header .header-search .search-text{
+     width: 250px;
+     height: 50px;
+     border: 1px solid #e0e0e0;
+ }
+ /* a标签操作 */
+ #header .header-search a{
+    background-color: #e0e0e0;
+    border:1px solid #e0e0e0;
+    color: #656565;
+}
+#header .header-search .form-text{
+    position: absolute;
+    right: 55px;
+}
+#header .header-search .search-btn{
+     width: 46px;
+     height: 50px;
+     text-align: center;
+     background-color: #fff;
+     border: 1px solid #e0e0e0;
+     border-left: none;
+     
+}
+#header .header-search .search-btn:hover{
+    border-color:#ff6700;
+}
+ #header .header-search a:hover{
+     color: #fff;
+     background-color: #ff6700;
+ }
+ /* 聚焦显示 */
+ #header .header-search input:focus + .form-text{
+     display: none;
+ }
+  /*================     
+    header-search  end           
+ ============== */

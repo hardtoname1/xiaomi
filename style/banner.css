@@ -1,0 +1,44 @@
+#banner{
+    position: relative;
+    height: 460px;
+    background-color: pink;
+}
+/*================
+     banner-left start
+ ============== */
+ #banner .banner-left{
+     height: 460px;
+ }
+ #banner .banner-left ul{
+     width: 100%;
+     height: 100%;
+     padding: 20px 0;
+     font-size: 14px;
+     box-sizing: border-box;
+     background-color:rgba(105,101,101,.6);  
+ }
+ #banner .banner-left ul li{
+     float: left;
+     width: 185px;
+     height: 42px;
+     padding-left:30px;
+     padding-right: 20px;
+     line-height: 42px;
+     text-align: left;
+     font-weight: bold;
+ }
+ #banner .banner-left ul li i{
+     float: right;
+ }
+ /* a 标签设置 start*/
+ #banner .banner-left ul a{
+     display:block;
+     color: #ffffff;
+ }
+ #banner .banner-left ul li:hover{
+    background-color: #ff6700;
+}
+ /* a 标签设置 end*/
+ /*================
+     banner-left end
+ ============== */

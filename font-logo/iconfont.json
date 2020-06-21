@@ -1,0 +1,23 @@
+{
+  "id": "1561381",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "705665",
+      "name": "房子",
+      "font_class": "fangzi",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "1403435",
+      "name": "小米",
+      "font_class": "xiaomi",
+      "unicode": "e832",
+      "unicode_decimal": 59442
+    }
+  ]
+}
