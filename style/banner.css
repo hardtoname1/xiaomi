@@ -1,8 +1,76 @@
 #banner{
+    overflow: hidden;
     position: relative;
     height: 460px;
-    background-color: pink;
 }
+/*================
+     bannerLB start
+ ============== */
+ #bannerLB{
+    width: 6130px;
+    top: 0px;
+    left: 0px;
+    margin-left: 0px;
+ }
+ #bannerLB img{
+     float: left;
+     width: 1226px;
+     height: 460px;
+ }
+ #banner #package{
+    position: absolute;
+    left:235px;
+    width: 991px;
+    height: 460px; 
+
+ }
+ #package i{
+     display: block;
+     width: 41px;
+     height: 69px;
+     margin-top:195px;
+     color: #d3d3d0;
+     font-size:40px;
+     line-height: 69px;
+     font-weight: 100;
+     opacity: .7;
+ }
+ #package #l{
+    float: left;
+    border-radius: 0px 3px 3px 0px;
+}
+ #package #r{
+     float: right;
+     border-radius: 3px 0px 0px 3px;
+ }
+ #package i:hover{
+     background-color: #333;
+     color: white;
+ }
+ #package ul.list{
+     float: right;
+     margin-top: 426px;
+     width: 90px;
+     height: 10px;
+ }
+ #package ul.list li{
+     float: left;
+     width: 6px;
+     height: 6px;
+     margin:0 4px;
+     border: 2px solid  rgba(255, 255, 255, 0.3);
+     border-radius: 10px;
+     background-color: rgba(0, 0, 0, 0.4);
+ }
+#package ul.list li.active{
+    background: rgba(255, 255, 255, 0.4);
+    border-color: rgba(0, 0, 0, 0.4);
+}
+ /*================
+     banneLB end
+ ============== */
+
+
 /*================
      banner-left start
  ============== */
@@ -39,7 +107,43 @@
     background-color: #ff6700;
 }
  /* a 标签设置 end*/
- 
+
+
+ /*================
+     subnav start
+ ============== */
+ #banner .banner-left ul li:hover .subnav{
+     display: block;
+ }
+ #banner .banner-left .subnav{
+     display: none;
+     position: absolute;
+     top: 0;
+     left: 235px;
+     z-index: 7;
+     width: 991px;
+     height: 460px;
+     background-color: white;
+ }
+ #banner .banner-left .subnav .subnavmain{
+    float: left;
+    width: 227px;
+    height: 460px;
+    padding-left: 20px;
+}
+#banner .banner-left .subnav .subnavmain .subnav-nav{
+    width: 100%;
+    height: 55px;
+    padding-top: 20px;
+    font-weight: normal;
+}
+#banner .banner-left .subnav .subnavmain img{
+    width: 40px;
+    height: 40px;
+}
+ /*================
+     subnav end
+ ============== */
  /*================
      banner-left end
  ============== */
