@@ -147,3 +147,73 @@
  /*================
      banner-left end
  ============== */
+
+  /*================
+     channel start
+ ============== */
+#channel{
+    height: 170px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+.channel-list{
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    color: #cfcdcb;
+    font-weight: 200;
+    text-align: center;
+    background-color: #5f5750;
+}
+.channel-list img{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin:18px auto;
+    margin-bottom: 8px;
+}
+.channel-list ul{
+    width: 100%;
+    height: 100%;  
+}
+.channel-list ul li{
+    position: relative;
+    float: left;
+    width: 76px;
+    height: 82px;
+}
+.channel-list ul li:hover{
+    color:#ffffff ;
+}
+.channel-list ul li::before{
+    position: absolute;
+    top: 6px;
+    left: 3px;
+    content: "";
+    width: 1px;
+    height: 70px;
+    background-color: #665e57;
+    
+}
+.channel-list ul li::after{
+    position: absolute;
+    top: 82px;
+    left: 9px;
+    content: "";
+    width: 64px;
+    height: 1px;
+    background-color: #665e57;
+}
+#channel .channel-img{
+    float: left;
+    height: 100%;
+    margin-left: 1px;
+}
+#channel .channel-img img{
+    width: 316px;
+    height: 170px;
+    margin-left: 11px;
+}
+  /*================
+     channel end
+ ============== */
