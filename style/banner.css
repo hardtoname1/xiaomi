@@ -114,28 +114,32 @@
  ============== */
  #banner .banner-left ul li:hover .subnav{
      display: block;
- }
+ } 
  #banner .banner-left .subnav{
      display: none;
      position: absolute;
      top: 0;
      left: 235px;
-     z-index: 7;
      width: 991px;
      height: 460px;
-     background-color: white;
+     font-size: 0px;
+     z-index: 7;
  }
  #banner .banner-left .subnav .subnavmain{
     float: left;
-    width: 227px;
+    width: 227px; 
     height: 460px;
     padding-left: 20px;
+    font-size: 12px;
+    z-index: 12;
+    background-color: white;
 }
 #banner .banner-left .subnav .subnavmain .subnav-nav{
-    width: 100%;
+    width: 227px;
     height: 55px;
     padding-top: 20px;
     font-weight: normal;
+    background-color: white;
 }
 #banner .banner-left .subnav .subnavmain img{
     width: 40px;
