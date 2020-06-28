@@ -1,0 +1,113 @@
+#main{
+    height: 1000px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+#main h2{
+    font-weight: lighter;
+    text-align: left;
+}
+#main .main-img{
+    margin-top: 20px;
+}
+.miflashsale{
+    height: 300px;
+    padding-top: 15px;
+}
+.miflashsale-left{
+    float: left;
+    height: 100%;
+    padding-top: 54px;
+    font-size: 21px;
+    color: #ef3a3b;
+    border-top: 1px solid #e53935;
+    background-color:#f1eded;
+}
+.miflashsale-left img{
+    margin: 25px  auto;
+}
+.miflashsale-left .desc{
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+}
+.miflashsale-left span{
+    display:inline-block;
+    line-height: 46px;
+    color: #605751;
+    margin-top: 30px;
+}
+.miflashsale-left .da{
+    width: 46px;
+    height: 46px;
+    color: white;
+    background-color: #605751;
+}
+.miflashsale-right{
+    overflow: hidden;
+    position: absolute;
+    top: 70px;
+    left: 235px;
+    width: 991px;
+    height: 300px;
+    padding-top: 54px;
+    /* background-color: yellow; */
+    /* background-color: red; */
+    /* border-top: 1px solid #e53935; */
+}
+#miflashsaleLB{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1984px;
+    height: 100%;
+    /* background-color: yellow; */
+}
+#miflashsaleLB .miLB-m{
+    float: left;
+    width: 235px;
+    height: 100%;
+    margin-left: 13px;
+    background-color: rgba(0,0,0,.02);
+    border-top: 1px solid #e53935;
+}
+#miflashsaleLB .miLB-m img{
+    width: 160px;
+    height: 160px;
+    margin-top:54px;
+}
+#miflashsaleLB .title{
+    margin-top: 22px;
+    font-weight: 500;
+    font-size: 14px;
+}
+#miflashsaleLB .desc{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+#miflashsaleLB .price{
+    margin-top: 12px;
+    font-size: 14px;
+    color:  #ff6709;
+}
+#miflashsaleLB .price del{
+    color:#757575;
+}
+.miflashsaleLB-bu{
+    position: relative;
+    top: -15px;
+    left: 100%;
+    z-index: 20;
+    margin-left: -80px;
+    width: 80px;
+    height: 24px;
+}
+.miflashsaleLB-bu i{
+  display: inline-block;
+  width: 36px;
+  height: 24px;
+  color: #b0b0b0;
+  border: 1px solid #e0e0e0;
+}
+.miflashsaleLB-bu i:hover{
+    color:#ff6709;
+}

@@ -1,3 +1,4 @@
+//头部效果
 (function(){
     var bannerLB = document.getElementById("bannerLB");
     var package = document.getElementById("package");
@@ -50,4 +51,36 @@
         
        
 
+})();
+
+//小米闪购效果
+(function(){
+    setInterval(function(){
+        var Houer = document.getElementById("Hour"),
+        Minute = document.getElementById("Minute"),
+        Second = document.getElementById("Second");
+
+        var date = new Date();
+
+        Houer.innerText =20 - date.getHours();
+        Minute.innerText =60 - date.getMinutes();
+        Second.innerText =60 - date.getSeconds();
+    },1000);
+
+    var iL = document.querySelectorAll(".miflashsaleLB-bu i"),
+        miflashsaleLB = document.getElementById("miflashsaleLB");
+    console.log(iL);
+    
+    // iL[0].onclick = function(i){
+    //     miflashsaleLB.style.marginLeft = -991 + "px";
+    // }
+    // iL[1].onclick = function(){
+    //     miflashsaleLB.style.marginLeft = -991 + "px";
+    // }
+    iL.forEach(function(ele,i){
+        ele.onclick = function(){
+            index = i;
+            miflashsaleLB.style.marginLeft = -991*index + "px";
+        }
+    })
 })();
