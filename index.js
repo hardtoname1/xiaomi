@@ -69,14 +69,7 @@
 
     var iL = document.querySelectorAll(".miflashsaleLB-bu i"),
         miflashsaleLB = document.getElementById("miflashsaleLB");
-    console.log(iL);
-    
-    // iL[0].onclick = function(i){
-    //     miflashsaleLB.style.marginLeft = -991 + "px";
-    // }
-    // iL[1].onclick = function(){
-    //     miflashsaleLB.style.marginLeft = -991 + "px";
-    // }
+    // console.log(iL);
     iL.forEach(function(ele,i){
         ele.onclick = function(){
             index = i;
@@ -84,3 +77,24 @@
         }
     })
 })();
+
+//轮播图效果
+
+    var homeUL = document.querySelectorAll("#main .homeele .homeele-r ul");
+    var XK = document.querySelectorAll(".main-nav span");
+
+    
+    for(var i = 0 ; i < XK.length ; i++){
+        XK[i].index = i;
+        XK[i].onmouseenter = function(){
+             //先把所有的名字全给去掉了。
+             for ( var j=0;j<XK.length;j++ ){
+                homeUL[j].classList.remove("show");
+                XK[j].classList.remove("active");
+            }
+
+            //然后再给当前的这个加对应的显示名字
+            homeUL[ this.index ].classList.add("show");
+            this.classList.add("active");
+        }
+    }

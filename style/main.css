@@ -1,5 +1,5 @@
 #main{
-    height: 1000px;
+    height: 6000px;
     text-align: center;
     background-color: #f5f5f5;
 }
@@ -8,8 +8,64 @@
     text-align: left;
 }
 #main .main-img{
-    margin-top: 20px;
+    width: 1226px;
+    height: 120px;
+    margin: 20px 0;
 }
+#main .title{
+    margin-top: 22px;
+    font-weight: 500;
+    font-size: 14px;
+}
+#main .desc{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+#main .price{
+    margin-top: 12px;
+    font-size: 14px;
+    color:  #ff6709;
+}
+#main .price del{
+    color:#757575;
+}
+#main .whloe{
+    top: -35px;
+    right: 0;
+    font-size: 16px;
+}
+#main .whloe i{
+    color: #b0b0b0;
+}
+#main .whloe:hover,
+#main .whloe:hover i{
+    color:#ff6709 ;
+}
+
+#main .main-nav{
+    top: -35px;
+    right: 0;
+    width: 156px;
+    height: 25px;
+    font-size: 16px;
+    text-align: right;
+    color: #424242;
+    /* background-color: red; */
+}
+#main .main-nav span{
+    display:inline-block;
+    margin-left: 20px;
+    /* color: #ff6709; */
+    /* border-bottom: 2px solid #f5f5f5; */
+}
+.active{
+    color: #ff6709;
+    border-bottom: 2px solid #ff6709;
+}
+#main .homeele .homeele-r ul.show{
+    display: block;
+}
+/* 小米闪购 */
 .miflashsale{
     height: 300px;
     padding-top: 15px;
@@ -50,9 +106,6 @@
     width: 991px;
     height: 300px;
     padding-top: 54px;
-    /* background-color: yellow; */
-    /* background-color: red; */
-    /* border-top: 1px solid #e53935; */
 }
 #miflashsaleLB{
     position: absolute;
@@ -75,23 +128,6 @@
     height: 160px;
     margin-top:54px;
 }
-#miflashsaleLB .title{
-    margin-top: 22px;
-    font-weight: 500;
-    font-size: 14px;
-}
-#miflashsaleLB .desc{
-    font-size: 12px;
-    color: #b0b0b0;
-}
-#miflashsaleLB .price{
-    margin-top: 12px;
-    font-size: 14px;
-    color:  #ff6709;
-}
-#miflashsaleLB .price del{
-    color:#757575;
-}
 .miflashsaleLB-bu{
     position: relative;
     top: -15px;
@@ -110,4 +146,125 @@
 }
 .miflashsaleLB-bu i:hover{
     color:#ff6709;
+}
+
+/* 手机 */
+#main .phone{
+    height: 614px;
+    margin-top:10px;
+    /* background-color: red; */
+}
+#main .phone .phone-left{
+    float: left;
+    /* height: 614px; */
+}
+#main .phone ul{
+    float: left;
+    width: 991px;
+    height: 614px;
+    /* margin-left: 1px; */
+    /* background-color: yellow; */
+}
+#main .phone ul li{
+    /* position: relative; */
+    float: right;
+    width: 235px;
+    height: 260px;
+    margin-left: 12px;
+    margin-bottom: 14px;
+    padding: 20px 0;
+    background-color: #fff;
+    
+}
+#main .phone ul li img{
+    width: 160px;
+    height: 160px;
+}
+#main .phone ul li:hover,
+.phone-left:hover{
+    transform: translateY(-1px);
+    box-shadow:0 0 20px 0px #e0e0e0;
+    transition: all .2s linear;
+}
+/* 家电 */
+#main .homeele{
+    height: 614px;
+    margin-top:10px;
+    /* background-color: red; */
+}
+#main .homeele ul.homeele-left{
+    float: left;
+    height: 614px;
+    padding: 0;
+    margin: 0;
+    /* height: 614px; */
+}
+#main .homeele ul.homeele-left li{
+    width: 235px;
+    height: 300px;
+    padding: 0;
+    margin-bottom: 14px;
+}
+#main .homeele .homeele-r{
+    float: left;
+    width: 991px;
+    height: 614px;
+}
+#main .homeele .homeele-r ul{
+    display: none;
+}
+#main .homeele ul li{
+    float: right;
+    width: 235px;
+    height: 260px;
+    margin-left: 12px;
+    margin-bottom: 14px;
+    padding: 20px 0;
+    background-color: #fff;
+    
+}
+#main  .homeele-r ul li img{
+    width: 160px;
+    height: 160px;
+}
+#main  ul li.last{
+    padding: 0;
+    background-color: #f5f5f5
+}
+#main  ul li.last img{
+    width: 80px;
+    height: 80px;
+}
+#main  ul li.last .more{
+    width: 235px;
+    height: 113px;
+    margin-bottom: 14px;
+    padding-top: 30px;
+    background-color: #fff;
+}
+#main  ul li.last .last-text{
+    float: left;
+    margin-left: 30px;
+}
+#main  ul li.last .last-text p{
+    font-size: 18px;
+}
+#main  ul li.last .last-img i{
+    font-size: 48px;
+    color: #ff6709;
+    line-height: 45px;
+}
+#main ul li.last .last-img{
+    float: left;
+    margin-left: 30px;
+}
+#main ul li:hover,
+#main ul li.last .more:hover{
+    transform: translateY(-1px);
+    box-shadow:0 0 20px 0px #e0e0e0;
+    transition: all .2s linear;
+}
+#main  ul li.last:hover{
+    transform: translateY(0px);
+    box-shadow:none;
 }
