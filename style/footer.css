@@ -1,0 +1,89 @@
+#footer{
+    height: 272px;
+    /* background-color: red; */
+}
+#footer .footer-service{
+    overflow: hidden;
+    height: 25px;
+    padding: 27px 0;
+    /* background-color: tomato; */
+    border-bottom: 1px solid #e0e0e0;
+}
+#footer .footer-service ul{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color:#616161 ;
+    font-size: 16px;
+    line-height: 25px;
+}
+#footer .footer-service ul li{
+    float: left;
+    width: 244px;
+    height: 100%;
+    /* background-color: yellow; */
+    border-right: 1px solid #e0e0e0;
+}
+#footer .footer-service ul li.fLlsat{
+    border-right: 1px solid #fff;
+}
+#footer .footer-service ul li i{
+    font-size: 25px;
+}
+#footer  a:hover,
+#footer .sites a:hover
+{
+    color: #ff6700;
+}
+#footer .footer-links{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#footer .footer-links dl{
+    float: left;
+    width: 163px; 
+    text-align: left;
+    line-height: 25px;
+}
+#footer .footer-links dt{
+    margin-bottom: 20px;
+}
+#footer .footer-links dd{
+    font-size: 12px;
+    color: #424242;
+}
+#footer .footer-links .col-contant{
+    float: left;
+    width: 244px;
+    height: 111px;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+    /* background-color: red; */
+}
+#footer .footer-links .col-contant .phone{
+    font-size: 22px;
+    color: #ff6700;
+}
+#footer .footer-links .col-contant p{
+    font-size: 12px;
+    color: #616161;
+}
+#footer .footer-links .RG{
+    width: 120px;
+    height: 30px;
+    margin:8px auto;
+    line-height: 30px;
+    color: #ff6700;
+    font-size: 12px;
+    border: 1px solid #ff6700;
+    /* background-color: #ff6700; */
+}
+#footer .footer-links .RG:hover{
+    background-color: #ff6700;
+    color: #fff;
+}
+#footer .sites a{
+    color:#757575;
+}
+
+

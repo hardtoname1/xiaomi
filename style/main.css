@@ -1,11 +1,12 @@
 #main{
-    height: 6000px;
+    height: 2250px;
     text-align: center;
     background-color: #f5f5f5;
 }
 #main h2{
     font-weight: lighter;
     text-align: left;
+    margin-bottom: 10px;
 }
 #main .main-img{
     width: 1226px;
@@ -30,7 +31,7 @@
     color:#757575;
 }
 #main .whloe{
-    top: -35px;
+    top: -10px;
     right: 0;
     font-size: 16px;
 }
@@ -43,7 +44,7 @@
 }
 
 #main .main-nav{
-    top: -35px;
+    top: -10px;
     right: 0;
     width: 156px;
     height: 25px;
